@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #171717;
+}
+
+.header_wrapper .navbar-brand {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.header_wrapper .nav-item .nav-link {
+    color: #fff;
+}
+
+.header_wrapper .navbar-toggler {
+    box-shadow: none;
+}
+
+.navbar-toggler i {
+    color: #fff;
+}
+
+.banner_wrapper {
+    min-height: 500px;
+}
+
+.main-btn {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 46px;
+    text-align: center;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+    /* box-shadow: 0 0.625rem 1.875rem rgb(118 85 225 / 30%); */
+    border: double 0.125rem transparent;
+    padding: 0 42px;
+    transition: all .3s ease-in-out;
+    --webkit-transition: all .3s ease-in-out;
+}
+
+.primary-btn {
+    background: #27AE60;
+    color: #fff;
+}
+
+.primary-btn:hover {
+    border-color: #fff;
+    background: transparent;
+    color: #fff;
+    box-shadow: none;
+}
+
+.secondary-btn {
+    background: transparent;
+    color: #fff;
+    border-color: white;
+}
+
+.secondary-btn:hover {
+    background: #27AE60;
+    color: #fff;
+}
+
+
+.banner_wrapper h1 {
+    color: #fff;
+}
+
+.banner_wrapper p {
+    color: #828282;
+}
+
+.banner_wrapper .main-text {
+    margin-top: 85px;
+}
+
+/* .......about........... */
+.about_wrapper {
+    min-height: 500px;
+    color: white;
+}
+
+.about_wrapper .info_section {
+    height: 150px;
+}
+
+.about_wrapper .info_section i {
+    font-size: 23px;
+    color: #27AE60;
+}
+
+
+
+/* ........Services........... */
+.services_wrapper {
+    min-height: 450px;
+}
+
+.services_wrapper h1 {
+    color: white;
+}
+
+.card {
+    background-color: #212121;
+    color: #535353;
+}
+
+.card img {
+    height: 44px;
+    width: 44px;
+    margin: 15px 0 0 32px;
+}
+
+
+
+
+/* ........Skills........... */
+.skill_wrapper {
+    min-height: 300px;
+}
+
+.skill_wrapper h1 {
+    color: white;
+}
+
+.skill-container {
+    background-color: #212121;
+}
+
+.skill-container h1 {
+    color: #535353;
+    font-weight: bold;
+}
+
+.skill-container p {
+    color: #27AE60;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+
+/*......... Contact Us........ */
+
+.footer_wrapper {
+    min-height: 500px;
+}
+
+.footer_wrapper .container .row h1 {
+    color: white;
+}
+
+.footer_wrapper .container .row label {
+    color: #535353;
+}
+
+.get-in-touch {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+  
+  }
+  .get-in-touch .title {
+    text-align: center;
+    color: white;
+  }
+  
+  .contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+  }
+  .contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #535353;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color:#918f8f;
+    background: transparent;
+  }
+
+  .contact-form .textarea-input{
+    background: transparent;
+    border-color: #535353;
+    border-width: 2px 2px 2px 2px;
+    color:#918f8f;
+  }
+  .contact-form .textarea-input:focus,
+  .contact-form .textarea-input:active,
+  .contact-form .input-text:focus,
+  .contact-form .input-text:active {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+
+  }
+
+  .contact-form label{
+    color: #535353;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .contact-form .label-textarea{
+    margin-bottom: 15px;
+  }
+
+  /* .contact-form .input-text:focus + .label,
+  .contact-form .input-text.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+  } */
+ 
+  /* .contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #535353;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, 
+    -webkit-transform .2s ease-in-out;
+  } */
+
+
+
+/* .............Responsive css here................ */
+
+@media(max-width:991px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+}
