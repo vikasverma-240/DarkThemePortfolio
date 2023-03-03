@@ -191,8 +191,10 @@ body {
   .contact-form .textarea-input{
     background: transparent;
     border-color: #535353;
-    border-width: 2px 2px 2px 2px;
     color:#918f8f;
+    border-width: 2px 2px 2px 2px;
+    width: 797px;
+    padding: 8px 0 0 12px;
   }
   .contact-form .textarea-input:focus,
   .contact-form .textarea-input:active,
@@ -210,9 +212,9 @@ body {
     font-weight: 400;
   }
 
-  .contact-form .label-textarea{
+  /* .contact-form .label-textarea{
     margin-bottom: 15px;
-  }
+  } */
 
   /* .contact-form .input-text:focus + .label,
   .contact-form .input-text.not-empty + .label {
@@ -244,3 +246,10 @@ body {
         text-align: center;
     }
 }
+/* 
+
+@media (max-width:240px){
+    .contact-form .textarea-input{
+        width: 270px;
+    }
+} */
